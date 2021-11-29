@@ -1,0 +1,48 @@
+body {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Quicksand';
+  padding-top: 5%;
+  word-wrap: break-word;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Ticket {
+  border: 1px solid #fff;
+  padding: 10%;
+  margin: 2%;
+}
+
+.TicketDetailsColumn {
+  font-weight: bold;
+}
+
+.TicketDetails {
+  border: 1px solid #fff;
+  padding: 10%;
+  margin: 2%;
+  text-align: left;
+}
+
+.TicketList {
+  margin: 10%;
+  margin-top: 5%;
+}
+
+a, a:hover {
+  color: #e66;
+  text-decoration: underline;
+}
+
+input, button {
+  color: black;
+}
